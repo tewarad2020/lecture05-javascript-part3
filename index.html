@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS DOM</title>
+	<script src='script.js' defer></script>
+</head>
+<body>
+	<!-- simple call back -->
+	<button onclick="clickCallback()"> Click me !</button>
+
+	<!-- manipulate dom -->
+	<button onclick="clickCallback()">Click me!</button>
+	<p>Lorem ipsum dolor sit amet.</p>
+	<!-- manipulate multiple (querySelectorAll) -->
+	<p>Lorem ipsum dolor sit amet.</p>
+
+	<!-- read value -->
+	<input type='text'>
+
+	<!-- excercise 1 -->
+	<input type='text'>
+	<button onclick="clickCallback()">Click me!</button>
+
+	<!-- oninput -->
+	<input type='text' oninput="inputCallback(event)">
+
+	<!-- Excercise 2 -->
+
+	<!-- fetch api -->
+	<button onClick="randomDog()">Random dog</button>
+	<br>
+	<br>
+	<img id="imgDog" onload="onImageLoaded()">
+</body>
+</html>
